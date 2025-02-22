@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using SacnSystemServer.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SacnSystemServer.Hubs
 {
@@ -10,9 +11,9 @@ namespace SacnSystemServer.Hubs
         {
             if (SD.MonControll == null)
             {
-                SD.MonControll = new List<Monitoring>();
+                SD.MonControll = new List<SD>();
                 SD.MonControll.Add(
-                    new Monitoring
+                    new SD
                     {
                         LineName = Test,
                     }
@@ -20,11 +21,11 @@ namespace SacnSystemServer.Hubs
             }
             else 
             {
-                if (SD.MonControll.FirstOrDefault(x => x.LineName == Test) == null)
+                if (SD.MonControll.FirstOrDefault(x => x.LineName == Test)==null)
                 {
-                    SD.MonControll = new List<Monitoring>();
+                    SD.MonControll = new List<SD>();
                     SD.MonControll.Add(
-                        new Monitoring
+                        new SD
                         {
                             LineName = Test,
                         }
@@ -35,8 +36,19 @@ namespace SacnSystemServer.Hubs
             await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == Test));
         }
 
-        
+        public async Task MonCtrl(string lineName, bool isTriggered, bool isCounted, int counted, string Model)
+        {
+            var obj = SD.MonControll.FirstOrDefault(x => x.LineName == lineName);
+            if (obj != null) 
+            { 
+                obj.Model = Model;
+                obj.isTriggered = isTriggered;
+                obj.isCounted = isCounted;
+                obj.Count = counted;
+            }
 
 
+            await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == lineName));
+        }
     }
 }

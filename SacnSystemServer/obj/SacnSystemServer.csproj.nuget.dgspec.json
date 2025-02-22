@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\.net\\SacnSystemServer\\SacnSystemServer\\SacnSystemServer.csproj": {}
+    "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj": {}
   },
   "projects": {
-    "E:\\Project\\.net\\SacnSystemServer\\SacnSystemServer\\SacnSystemServer.csproj": {
+    "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.net\\SacnSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+        "projectUniqueName": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
         "projectName": "SacnSystemServer",
-        "projectPath": "E:\\Project\\.net\\SacnSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+        "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
         "packagesPath": "C:\\Users\\WPPE\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.net\\SacnSystemServer\\SacnSystemServer\\obj\\",
+        "outputPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ck6Fl+upohA=",
+  "dgSpecHash": "nzhREAoZQww=",
   "success": true,
-  "projectFilePath": "E:\\Project\\.net\\SacnSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+  "projectFilePath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WPPE\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\WPPE\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -20,6 +20,7 @@ function fulfilled() {
     //do something on start
     console.log("Connection to User Hub Successful");
     Get();
+    /*myConn.send("MonCtrl", "Line1", false, false,10,"Test")*/
 }
 function rejected() {
     //rejected logs
