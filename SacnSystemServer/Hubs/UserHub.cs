@@ -32,8 +32,9 @@ namespace SacnSystemServer.Hubs
                     );
                 }
             }
-            
+
             await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == Test));
+            //return SD.MonControll.FirstOrDefault(x => x.LineName == Test);
         }
 
         public async Task MonCtrl(string lineName, bool isTriggered, bool isCounted, int counted, string Model)
@@ -46,8 +47,6 @@ namespace SacnSystemServer.Hubs
                 obj.isCounted = isCounted;
                 obj.Count = counted;
             }
-
-
             await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == lineName));
         }
     }
