@@ -1,4 +1,4 @@
-namespace SacnSystemServer.Models
+namespace Models
 {
     public class ErrorViewModel
     {

@@ -3,47 +3,180 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SacnSystemServer</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/SacnSystemServer.styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"] - WebPE</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link rel="stylesheet" href="~/css/Poppins.css" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-icons.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="~/css/nucleo-svg.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/black-dashboard.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/signalr.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="~/lib/dataTables/datatables.min.css">
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    @* <link rel="stylesheet" href="~/WebPE.styles.css" asp-append-version="true" /> *@
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SacnSystemServer</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+    <script src="~/js/plugins/preloader.js"></script>
+    <div class="wrapper">
+        @{
+            await Html.RenderPartialAsync("_sidebar");
+        }
+        
+        <div class="main-panel" data="blue">
+            @{
+                await Html.RenderPartialAsync("_navigation");
+            }
+        
+            @RenderBody()
+
+            @{
+                await Html.RenderPartialAsync("_footer");
+            }
+
+        </div>
+    </div>
+    <div class="modal fade mt-0" id="uni_modal" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable modal-md" role="document">
+            <div class="modal-content rounded-1" style="border: rgba(161, 152, 156, 0.8) 1px solid;">
+                <div class="modal-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-3 pb-3">
+                        <h3 class="modal-title text-white mx-3"></h3>
+                    </div>
+                    
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-sm btn-flat btn-primary rounded-1" id='submit1' onclick="$('#uni_modal form').submit()">Save</button>
+                    <button type="button" class="btn btn-sm btn-flat btn-secondary rounded-1" id='cancel1' data-dismiss="modal" onclick="$('#uni_modal').modal('hide');">Cancel</button>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
+    </div>
+    
+    <div class="modal fade mt-0" id="uni_modal2" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable modal-md" role="document">
+            <div class="modal-content rounded-1" style="border: rgba(161, 152, 156, 0.8) 1px solid;">
+                <div class="modal-header">
+                    <h3 class="modal-title"></h3>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-sm btn-flat btn-primary rounded-1" id='submit' data-dismiss="modal" onclick="$('#uni_modal2 form').submit()">Save</button>
+                    <button type="button" class="btn btn-sm btn-flat btn-secondary rounded-1" id='cancel' data-dismiss="modal" onclick="$('#uni_modal2').modal('hide');$('#uni_modal').modal('show');">Cancel</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - SacnSystemServer - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <div class="modal fade" id="confirm_modal" role='dialog'>
+        <div class="modal-dialog modal-dialog-scrollable modal-md" role="document">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmation</h5>
+                </div>
+                <div class="modal-body">
+                    <div id="delete_content"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-flat btn-primary rounded-0" id='confirm' onclick="">Continue</button>
+                    <button type="button" class="btn btn-sm btn-flat btn-secondary rounded-0" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+
+    <script>
+        window.start_loader = function () {
+            $('body').removeClass('loaded')
+        }
+
+        window.end_loader = function () {
+            $('body').addClass('loaded')
+        }
+        
+        window.uni_modal = function ($title = '', $url = '', $size = "") {
+            $.ajax({
+                type: 'GET',
+                url: $url,
+                error: err => {
+                    location.reload();
+                },
+                success: function (resp) {
+                    if (resp) {
+                        $('#uni_modal .modal-title').html($title)
+                        $('#uni_modal .modal-body').html(resp)
+                        if ($size != '') {
+                            $('#uni_modal .modal-dialog').addClass($size)
+                        } else {
+                            $('#uni_modal .modal-dialog').removeAttr("class").addClass("modal-dialog modal-md")
+                        }
+                        $('#uni_modal').modal({
+                            backdrop: 'static',
+                            keyboard: false,
+                            focus: true
+                        })
+                        $('#uni_modal').modal('show')
+                        $('#uni_modal').scrollTop(0)
+                    }
+                }
+            })
+        }
+
+        window.uni_modal2 = function ($title = '', $url = '', $size = "") {
+            $.ajax({
+                type: 'GET',
+                url: $url,
+                error: err => {
+                    location.reload();
+                },
+                success: function (resp) {
+                    if (resp) {
+                        $('#uni_modal2 .modal-title').html($title)
+                        $('#uni_modal2 .modal-body').html(resp)
+                        if ($size != '') {
+                            $('#uni_modal2 .modal-dialog').addClass($size)
+                        } else {
+                            $('#uni_modal2 .modal-dialog').removeAttr("class").addClass("modal-dialog modal-md")
+                        }
+                        $('#uni_modal2').modal({
+                            backdrop: 'static',
+                            keyboard: false,
+                            focus: true
+                        })
+                        $('#uni_modal').modal('hide')
+                        $('#uni_modal2').modal('show')
+                        $('#uni_modal2').scrollTop(0)
+                    }
+                }
+            })
+        }
+        window._conf = function ($msg = '', $func = '', $params = []) {
+            $('#confirm_modal #confirm').attr('onclick', $func + "(" + $params.join(',') + ")")
+            $('#confirm_modal .modal-body').html($msg)
+            $('#confirm_modal').modal('show')
+        }
+    </script>
+
+    @* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+    @* <script type="text/javascript" src="~/js/index.umd.js"></script> *@
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/js/black-dashboard.js"></script>
+    <script src="~/js/plugins/polyfills.umd.js" defer></script>
+    <script src="~/js/plugins/jspdf.umd.js" defer></script>
+    <script src="~/js/plugins/bootstrap-notify.js" defer></script>
+    <script src="~/js/plugins/moment.min.js" defer></script>
+    @* <script src="~/js/signalr.js" defer></script> *@
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    @* <script src="~/js/plugins/app.js" defer></script> *@
+    <script src="~/js/plugins/chart.min.js" defer></script>
+    @await RenderSectionAsync("scripts", required: false)
+    @* @Html.RenderPartialViewScripts() *@
 </body>
 </html>

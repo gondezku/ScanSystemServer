@@ -1,0 +1,87 @@
+﻿<div class="sidebar" data="blue">
+    <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
+    -->
+    <div class="sidebar-wrapper">
+        <div class="logo">
+            <a href="javascript:void(0)" class="simple-text logo-mini">
+                CT
+            </a>
+            <a href="javascript:void(0)" class="simple-text logo-normal">
+                Creative Tim
+            </a>
+        </div>
+        <ul class="nav">
+            <li>
+                <a data-icon="HomeProduction">
+                    <i class="bi bi-house-door"></i>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li>
+                <a data-icon="itemGroup" aria-controls="taskList" aria-expanded="false">
+                    <i class="bi bi-gear"></i>
+                    <p>Adminstration</p>
+                </a>
+                <div id="taskList" hidden>
+                    <ul class="nav mt-0" style="margin-left:1rem">
+                        <li id="ProdModel">
+                            <a data-icon="ProdModel">
+                                @* <a href="/home/KYTSubmit"> *@
+                                <i class="bi bi-pencil-square"></i>
+                                <p>Prodn Model</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            
+            <li>
+                <a href="{% url 'login' %}">
+                    <i class="bi bi-power"></i>
+                    <p>Logout</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        _loadInterval = false;
+        $(document).ready(function () {
+            _past = "dashboard";
+            LoadFrame("dashboard", null);
+        });
+        $("a").on("click", function () {
+            var _icons = $(this).attr('data-icon');
+            if (_icons) {
+                if ((_icons != "itemGroup") && (_past != _icons)) {
+                    $('#myContent').addClass("animate__animated animate__fadeOutLeft")
+                    $(".nav li").removeClass("active");
+                    var myIcons = $('#' + _icons)
+                    var _label = myIcons.children().find("p").text()
+                    myIcons.addClass("active")
+                    myIcons.children().find("p").text("loading").addClass('animate__animated animate__flash animate__infinite')
+                    _past = _icons;
+                    clearTimeout(_loadInterval)
+                    _loadInterval = setTimeout(function () {
+                        LoadFrame(_icons, _label);
+                    }, 350)
+                }
+                else if (_icons == 'itemGroup') {
+                    var control = $(this).attr('aria-controls')
+                    var value = $(this).attr('aria-expanded');
+                    var content = document.getElementById(control);
+                    if (value == "true") {
+                        $(this).attr("aria-expanded", "false");
+                        content.setAttribute("hidden", "");
+                    } else {
+                        $(this).attr("aria-expanded", "true");
+                        content.removeAttribute("hidden");
+                    }
+                }
+            }
+        })
+    })
+</script>

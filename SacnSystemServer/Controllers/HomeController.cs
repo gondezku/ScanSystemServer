@@ -6,8 +6,8 @@ using SacnSystemServer.Hubs;
 
 
 //using SacnSystemServer.Data;
-using SacnSystemServer.Models;
 using static System.Net.Mime.MediaTypeNames;
+using Models;
 
 namespace SacnSystemServer.Controllers
 {
@@ -29,52 +29,10 @@ namespace SacnSystemServer.Controllers
             return View();
         }
 
-        [HttpGet]
-
-        public async Task<IActionResult> armingCount(string objLine)
+        public IActionResult HomeProduction()
         {
-            try
-            {
-
-                string LineObj = objLine;
-                var objName = SD.MonControll.Where(x=>x.LineName==objLine).ToList();
-                if (objName != null)
-                {
-                    objName[0].isTriggered = true;
-                }
-
-                await _userHub.Clients.All.SendAsync("updateControll", objName[0]);
-
-                return Accepted();
-            }
-            catch {
-                return Accepted();
-            }
+            return PartialView("Privacy");
         }
-
-        [HttpGet]
-
-        public async Task<IActionResult> ModelSet(string objLine, string model)
-        {
-            try
-            {
-
-                var objName = SD.MonControll.Where(x => x.LineName == objLine).ToList();
-                if (objName != null)
-                {
-                    objName[0].Model = model;
-                }
-
-                await _userHub.Clients.All.SendAsync("updateControll", objName[0]);
-
-                return Accepted();
-            }
-            catch
-            {
-                return Accepted();
-            }
-        }
-
 
         public IActionResult Privacy()
         {

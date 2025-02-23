@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using SacnSystemServer.Models;
-using static System.Net.Mime.MediaTypeNames;
+using Utility;
 
 namespace SacnSystemServer.Hubs
 {

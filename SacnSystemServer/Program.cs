@@ -1,17 +1,14 @@
 using Microsoft.EntityFrameworkCore;
-//using SacnSystemServer.Data;
 using SacnSystemServer.Hubs;
+using DataAccess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//builder.Services.AddDbContext<ApplicationDBContext>(option =>
-//    // option.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-//    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
+builder.Services.AddDbContext<ApplicationDBContext>(option =>
+    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddSignalR();
 

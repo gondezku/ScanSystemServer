@@ -1,6 +1,5 @@
-﻿using SacnSystemServer.Models;
-
-namespace SacnSystemServer
+﻿
+namespace Utility
 {
     public class SD
     {
