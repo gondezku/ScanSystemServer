@@ -37,16 +37,32 @@ namespace SacnSystemServer.Hubs
             //return SD.MonControll.FirstOrDefault(x => x.LineName == Test);
         }
 
-        public async Task MonCtrl(string lineName, bool isTriggered, bool isCounted, int counted, string Model)
+        public async Task MonCtrl(string lineName, bool isTriggered, bool isCounted, int counted, string Model, string cmd)
         {
             var obj = SD.MonControll.FirstOrDefault(x => x.LineName == lineName);
             if (obj != null) 
-            { 
-                obj.Model = Model;
-                obj.isTriggered = isTriggered;
-                obj.isCounted = isCounted;
-                obj.Count = counted;
+            {
+                switch (cmd)
+                {
+                    case "Trigger":
+                        obj.isTriggered = true;
+                        obj.Count = counted;
+                        break;
+                    case "counted":
+                        obj.isCounted=true;
+                        break;
+                    case "modelChange":
+                        obj.Model = Model;
+                        break;
+                    default:
+                        obj.Model = Model;
+                        obj.isTriggered = isTriggered;
+                        obj.isCounted = isCounted;
+                        obj.Count = counted;
+                        break;
+                }
             }
+            
             await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == lineName));
         }
     }
