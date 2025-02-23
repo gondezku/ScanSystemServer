@@ -3,26 +3,32 @@ using System.Linq.Expressions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using SacnSystemServer.Hubs;
-
-
-//using SacnSystemServer.Data;
 using static System.Net.Mime.MediaTypeNames;
 using Models;
+using Microsoft.AspNetCore.Identity;
+using DataAccess.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SacnSystemServer.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
-        private readonly IHubContext<UserHub> _userHub;
+        private ApplicationDBContext _db;
+        private readonly UserManager<ApplicationUser> _usermanager;
         private readonly ILogger<HomeController> _logger;
-        //private ApplicationDBContext _db;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public HomeController(ILogger<HomeController> logger, IHubContext<UserHub> userHub)
+        public HomeController(ApplicationDBContext db, UserManager<ApplicationUser> usermanager, SignInManager<ApplicationUser> signInManager, ILogger<HomeController> logger)
         {
-            //_db = db;
+            _db = db;
+            _usermanager = usermanager;
+            _signInManager = signInManager;
             _logger = logger;
-            _userHub = userHub;
+            //int siteku = _db.Sites.Count();
+
         }
+
 
         public IActionResult Index()
         {
@@ -37,6 +43,13 @@ namespace SacnSystemServer.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("index", "home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

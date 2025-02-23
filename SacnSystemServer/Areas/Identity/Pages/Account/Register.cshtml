@@ -1,0 +1,171 @@
+﻿@* @page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Create a new account.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h3>Use another service to register.</h3>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
+                            about setting up this ASP.NET application to support logging in via external services</a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div> *@
+
+@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+@* <h1>@ViewData["Title"]</h1> *@
+<div class="content">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-7 offset-md-3 pt-5">
+                <div class="card" style="max-height:fit-content">
+                    <div class="card-header text-center py-2">
+                        <h4 class="title mb-1">
+                            @ViewData["Title"]
+                        </h4>
+                        <h6 class="card-category">
+                            <span>
+                                Create a new account.
+                            </span>
+                            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        </h6>
+                    </div>
+                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                        <div class="card-body px-5 pb-0">
+                            <div class="row">
+                                <div class="col-md-12 px-md-1">
+                                    <div class="did-floating-label-content">
+                                        <input asp-for="Input.Name" class="did-floating-input" autocomplete="username" aria-required="true" placeholder="" />
+                                        <label asp-for="Input.Name" class="did-floating-label" style="background: #27293d;">Name</label>
+                                        <span asp-validation-for="Input.Name" class="text-danger" style="font-size:10px;"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 px-md-1">
+                                    <div class="did-floating-label-content">
+                                        <input asp-for="Input.Email" class="did-floating-input" autocomplete="username" aria-required="true" placeholder="" />
+                                        <label asp-for="Input.Email" class="did-floating-label" style="background: #27293d;">Email</label>
+                                        <span asp-validation-for="Input.Email" class="text-danger" style="font-size:10px;"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 px-md-1">
+                                    <div class="row mx-0">
+                                        <div class="col-md-6" style="padding-left:0px;padding-right:2px">
+                                            <div class="did-floating-label-content">
+                                                <input asp-for="Input.Password" class="did-floating-input" autocomplete="new-password" aria-required="true" placeholder="" />
+                                                <label asp-for="Input.Password" class="did-floating-label" style="background: #27293d;">Password</label>
+                                                <span asp-validation-for="Input.Password" class="text-danger" style="font-size:10px;"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" style="padding-left:0px;padding-right:2px">
+                                            <div class="did-floating-label-content">
+                                                <input asp-for="Input.ConfirmPassword" class="did-floating-input" autocomplete="new-password" aria-required="true" placeholder="" />
+                                                <label asp-for="Input.ConfirmPassword" class="did-floating-label" style="background: #27293d;">Confirm Password</label>
+                                                <span asp-validation-for="Input.ConfirmPassword" class="text-danger" style="font-size:10px;"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 px-md-1" style="margin-top:5px;">
+                                    @* <div class="col-md-6 px-0"> *@
+                                        <div class="did-floating-label-content">
+                                            <select id="RoleSelect" asp-for="Input.Role" asp-items="@Model.Input2.Role_List" class="did-floating-select" style="background: #27293d;">
+                                                <option disabled selected></option>
+                                            </select>
+                                            <label asp-for="Input.Role" class="did-floating-label" style="background: #27293d;">Role</label>
+                                            <span asp-validation-for="Input.Role" class="text-danger" style="font-size:10px;"></span>
+                                        </div>
+                                    @* </div> *@
+                                </div>
+                                <div class="col-md-12 px-md-1" style="margin-top:5px;">
+                                    @* <div class="row mx-0"> *@
+                                        <div id="DispBU" class="col-md-12" style="padding-left:0px;padding-right:2px;">
+                                            <div class="did-floating-label-content">
+                                                <select id="BUSelect" asp-for="Input.BU_Unit" asp-items="@Model.Input.BU_List" class="did-floating-select" style="background: #27293d;">
+                                                    <option disabled selected></option>
+                                                </select>
+                                                <label asp-for="Input.BU_Unit" class="did-floating-label" style="background: #27293d;">Bisnis Unit</label>
+                                                <span asp-validation-for="Input.BU_Unit" class="text-danger" style="font-size:10px;"></span>
+                                            </div>
+                                        </div>
+                                    @* </div> *@
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center pt-0">
+                            <button id="registerSubmit" type="submit" class="btn btn-fill btn-primary">Register</button>
+                            <br />
+                            <p>
+                                <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have an account</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/popper.min.js"></script>
+<script src="~/js/perfect-scrollbar.jquery.min.js"></script>
+<script src="~/js/black-dashboard.js"></script>

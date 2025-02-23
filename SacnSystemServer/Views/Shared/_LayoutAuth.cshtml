@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebPE</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link rel="stylesheet" href="~/css/Poppins.css" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="~/css/black-dashboard.css" />
+    <script src="~/js/plugins/preloader.js"></script>
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    @* <link rel="stylesheet" href="~/WebPE.styles.css" asp-append-version="true" /> *@
+</head>
+<body class="">
+    <script src="~/js/plugins/preloader.js"></script>
+    <div class="wrapper">
+        
+        <div class="container-fluid">
+            
+            @RenderBody()
+
+            @{
+                await Html.RenderPartialAsync("_footerFS");
+            }
+
+        </div>
+    </div>
+    <script>
+        window.start_loader = function () {
+            $('body').removeClass('loaded')
+        }
+
+        window.end_loader = function () {
+            $('body').addClass('loaded')
+        }
+        
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    @* @Html.RenderPartialViewScripts() *@
+</body>
+</html>
