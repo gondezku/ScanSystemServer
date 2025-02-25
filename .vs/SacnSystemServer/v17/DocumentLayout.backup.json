@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\views\\home\\prodmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\views\\home\\prodmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserHub.cs",
-              "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Hubs\\UserHub.cs",
-              "RelativeDocumentMoniker": "SacnSystemServer\\Hubs\\UserHub.cs",
-              "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Hubs\\UserHub.cs",
-              "RelativeToolTip": "SacnSystemServer\\Hubs\\UserHub.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAmwD0AAAAeAAAAAAAAAA==",
+              "Title": "ProdModel.cshtml",
+              "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Home\\ProdModel.cshtml",
+              "RelativeDocumentMoniker": "SacnSystemServer\\Views\\Home\\ProdModel.cshtml",
+              "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Home\\ProdModel.cshtml",
+              "RelativeToolTip": "SacnSystemServer\\Views\\Home\\ProdModel.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T20:28:14.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Shared\\_sidebar.cshtml",
+              "RelativeDocumentMoniker": "SacnSystemServer\\Views\\Shared\\_sidebar.cshtml",
+              "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Shared\\_sidebar.cshtml",
+              "RelativeToolTip": "SacnSystemServer\\Views\\Shared\\_sidebar.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T20:23:23.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SacnSystemServer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SacnSystemServer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwC0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:07:43.884Z",
+              "WhenOpened": "2025-02-24T20:23:14.039Z",
               "EditorCaption": ""
             }
           ]

@@ -39,3 +39,7 @@ function ActivateScroll() {
         var ps = new PerfectScrollbar($(this)[0]);
     });
 }
+
+function GetToken() {
+    return document.querySelector("[name='__RequestVerificationToken']").value;
+}

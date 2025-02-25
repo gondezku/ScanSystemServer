@@ -35,6 +35,63 @@ namespace SacnSystemServer.Controllers
             return View();
         }
 
+
+        [HttpGet]
+        public IActionResult ProdModel()
+        {
+            string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;
+            try
+            {
+                ViewBag.objModel = _db.ProdModels.Where(x=>x.BUid == UsrBU).ToList();
+                return PartialView();
+            }
+            catch
+            {
+                return Redirect("/");
+            }
+            
+        }
+
+        [HttpGet]
+        public IActionResult AddModel()
+        {
+            string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;
+            try
+            {
+                return PartialView();
+            }
+            catch
+            {
+                return Redirect("/");
+            }
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]//Updated today 10/7/2024
+        public JsonResult SubmitAddModel()
+        {
+            var resp = new Dictionary<string, object>();
+            resp.Add("status", "failed");
+            resp.Add("msg", "");
+
+            try
+            {
+                    string? ModelName = Request.Form["ModelName"];
+                    int? PkgSize = Convert.ToInt32(Request.Form["PkgSize"]);
+                    int? HeadCon = Convert.ToInt32(Request.Form["HC"]);
+                    double? CT = Convert.ToDouble(Request.Form["CycleTime"]);
+
+                    resp["status"] = "success";
+                    return Json(resp);
+                }
+            catch
+            {
+                resp["msg"] = "Error";
+                return Json(resp);
+            }
+        }
+
         public IActionResult HomeProduction()
         {
             return PartialView("Privacy");

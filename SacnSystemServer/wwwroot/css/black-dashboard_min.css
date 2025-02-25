@@ -6502,7 +6502,8 @@ button.bg-darker:focus {
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(195deg, #cf93c6 0%, #a10288 100%);
+    /*background-image: linear-gradient(195deg, #cf93c6 0%, #a10288 100%);*/
+    background-image: linear-gradient(195deg, #3358f4 0%, #1d8cf8 100%);
 }
 
 .bg-gradient-info {

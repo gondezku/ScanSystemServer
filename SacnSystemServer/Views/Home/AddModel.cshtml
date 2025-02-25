@@ -1,0 +1,92 @@
+﻿<div class="container">
+	<form action="" id="modelForm">
+		@Html.AntiForgeryToken()
+		<div class="col-md-12 px-md-1">
+			<div class="row mx-0">
+				<div class="col-md-6" style="padding-left:0px;padding-right:2px">
+					<div class="did-floating-label-content">
+						<input id="ModelName" name="ModelName" class="did-floating-input" onkeyup="this.value = this.value.toUpperCase();" />
+						<label class="did-floating-label" style="background: white;">ModelName</label>
+						<span class="text-danger"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 px-md-1">
+			<div class="row mx-0">
+				<div class="col-md-4" style="padding-left:0px;padding-right:2px">
+					<div class="did-floating-label-content">
+						<input id="PkgSize" name="PkgSize" class="did-floating-input" type="number"/>
+						<label class="did-floating-label" style="background: white;">Packing Size</label>
+						<span class="text-danger"></span>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding-left:2px;padding-right:2px">
+					<div class="did-floating-label-content">
+						<input id="HC" name="HC" class="did-floating-input" type="number"/>
+						<label class="did-floating-label" style="background: white;">HeadCount</label>
+						<span class="text-danger"></span>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding-left:2px;padding-right:2px">
+					<div class="did-floating-label-content">
+						<input id="CycleTime" name="CycleTime" type="number" class="did-floating-input"/>
+						<label class="did-floating-label" style="background: white;">CycleTime</label>
+						<span class="text-danger"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 px-md-1">
+			<div class="row mx-0">
+			</div>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript">
+
+	$(function () {
+		 $('#modelForm').submit(function (e) {
+			e.preventDefault();
+			kirim()
+		});
+
+
+	})
+
+	function kirim(){
+		var data = $('#modelForm').serialize()
+		$.ajax({
+			headers: {
+					'RequestVerificationToken': GetToken()
+				},
+			url: '/Home/SubmitAddModel',
+			cache: false,
+			contentType: false,
+			processData: false,
+			method: 'POST',
+			type: 'POST',
+			dataType: 'json',
+			contentType: 'application/x-www-form-urlencoded; charset=UTF-8', // when we use .serialize() this generates the data in query string format. this needs the default contentType (default content type is: contentType: 'application/x-www-form-urlencoded; charset=UTF-8') so it is optional, you can remove it
+			data: data,
+			error: err => {
+				end_loader()
+				alert(err)
+			},
+			success: function (resp) {
+				end_loader()
+				if (typeof resp == 'object' && resp.status == 'success') {
+					$('#uni_modal').modal('hide')
+					LoadFrame(_past);
+				} else if (resp.status == 'failed' && !!resp.msg) {
+					console.log(resp.msg)
+				} else {
+					console.log("An error occured", 'error');
+				}
+
+			}
+		})
+	}
+
+</script>

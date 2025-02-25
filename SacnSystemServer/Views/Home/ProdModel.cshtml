@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Production Model";
+}
+<div class="row animate__animated animate__fadeInLeft">
+    <div class="card my-4" style="height: 480px;margin-bottom:5px">
+        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+            <div class="card-header p-0 position-relative mt-n3 mx-4 z-index-2">
+                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-2 pb-3" style="height: 50px;">
+                    @* <h6 class="text-white text-capitalize pl-3" style="font-size: 1rem;">Service Request</h6> *@
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="card-title mb-0">
+                            <h6 class="text-white text-capitalize pl-3" style="font-size: 1rem;">Production Model List</h6>
+                        </div>
+                        <div class="text-start">
+                            <button class="btn bg-gradient-primary shadow-primary border-radius-lg btn-sm rounded-1" id="create_new_model" style="margin-right: 0.5rem;"><span>Add New</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body px-0 pb-2">
+            <div class="table-responsive p-0">
+                <table id="ServiceRqstTbl" class="table align-items-center mb-0">
+                   <thead>
+                        <tr>
+                            <th class="text-center py-1">Model Name</th>
+                            <th class="text-center py-1">Packing Size</th>
+                            <th class="text-center py-1">HeadCount</th>
+                            <th class="text-center py-1">CycleTime</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var obj in ViewBag.objModel)
+                        {
+                            <tr>
+                                <td class="px-2 py-1 text-start">@obj.ModelName</td>
+                                <td class="px-2 py-1 text-start">@obj.PkgSize</td>
+                                <td class="px-2 py-1 text-start">@obj.HeadCon</td>
+                                <td class="px-2 py-1 text-start">@obj.CycleTime</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#create_new_model').click(function () {
+            uni_modal("Add New Model", "/home/AddModel")
+        })
+    })
+</script>

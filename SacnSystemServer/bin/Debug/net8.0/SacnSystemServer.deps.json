@@ -2315,7 +2315,10 @@
           "Utility": "1.0.0"
         },
         "runtime": {
-          "DataAccess.dll": {}
+          "DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Models/1.0.0": {
@@ -2323,7 +2326,10 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.11"
         },
         "runtime": {
-          "Models.dll": {}
+          "Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Utility/1.0.0": {
@@ -2332,7 +2338,10 @@
           "Models": "1.0.0"
         },
         "runtime": {
-          "Utility.dll": {}
+          "Utility.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
