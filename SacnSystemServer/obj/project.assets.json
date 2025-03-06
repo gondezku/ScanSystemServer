@@ -47,6 +47,19 @@
           }
         }
       },
+      "CsvHelper/33.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -3219,6 +3232,34 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "CsvHelper/33.0.1": {
+      "sha512": "fev4lynklAU2A9GVMLtwarkwaanjSYB4wUqO2nOJX5hnzObORzUqVLe+bDYCUyIIRQM4o5Bsq3CcyJR89iMmEQ==",
+      "type": "package",
+      "path": "csvhelper/33.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.33.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net462/CsvHelper.dll",
+        "lib/net462/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net48/CsvHelper.dll",
+        "lib/net48/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/net7.0/CsvHelper.dll",
+        "lib/net7.0/CsvHelper.xml",
+        "lib/net8.0/CsvHelper.dll",
+        "lib/net8.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
     "Humanizer/2.14.1": {
@@ -8540,6 +8581,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CsvHelper >= 33.0.1",
       "DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.11",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.11",
@@ -8553,24 +8595,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WPPE\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jhon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+      "projectUniqueName": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
       "projectName": "SacnSystemServer",
-      "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
-      "packagesPath": "C:\\Users\\WPPE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\",
+      "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+      "packagesPath": "C:\\Users\\Jhon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\WPPE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Jhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8584,14 +8621,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj"
+            "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj"
             },
-            "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj": {
-              "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj"
+            "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj"
             }
           }
         }
@@ -8605,13 +8642,16 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "CsvHelper": {
+            "target": "Package",
+            "version": "[33.0.1, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.11, )"
@@ -8662,7 +8702,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

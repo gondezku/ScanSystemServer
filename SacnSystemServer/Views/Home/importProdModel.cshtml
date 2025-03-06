@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Upload CSV";
+}
+
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" />
+</form>
+
+<div id="result"></div>
+
+<script type="text/javascript">
+
+	$(function () {
+		$('#uploadForm').submit(function (e) {
+			e.preventDefault();
+			var data = new FormData(this);
+            $.ajax({
+                type: 'POST',
+                url: '/home/UploadCsvModel',
+                data: data,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $('#uni_modal').modal('hide')
+                    LoadFrame(_past);
+                },
+                error: function (error) {
+                    $('#result').html('<p>Error uploading file</p>');
+                }
+            });
+		});
+	})
+
+</script>

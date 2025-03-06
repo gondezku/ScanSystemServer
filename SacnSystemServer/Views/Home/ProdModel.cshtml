@@ -12,6 +12,7 @@
                             <h6 class="text-white text-capitalize pl-3" style="font-size: 1rem;">Production Model List</h6>
                         </div>
                         <div class="text-start">
+                            <button class="btn bg-gradient-primary shadow-primary border-radius-lg btn-sm rounded-1" id="import" style="margin-right: 0.5rem;"><span>Import</span></button>
                             <button class="btn bg-gradient-primary shadow-primary border-radius-lg btn-sm rounded-1" id="create_new_model" style="margin-right: 0.5rem;"><span>Add New</span></button>
                         </div>
                     </div>
@@ -51,6 +52,9 @@
     $(function () {
         $('#create_new_model').click(function () {
             uni_modal("Add New Model", "/home/AddModel")
+        })
+        $('#import').click(function () {
+            uni_modal("Import from CSV", "/home/importProdModel")
         })
     })
 </script>

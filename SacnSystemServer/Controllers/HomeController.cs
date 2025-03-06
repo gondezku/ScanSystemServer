@@ -3,11 +3,12 @@ using System.Linq.Expressions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using SacnSystemServer.Hubs;
-using static System.Net.Mime.MediaTypeNames;
 using Models;
 using Microsoft.AspNetCore.Identity;
 using DataAccess.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+using CsvHelper;
 
 namespace SacnSystemServer.Controllers
 {
@@ -65,6 +66,55 @@ namespace SacnSystemServer.Controllers
                 return Redirect("/");
             }
 
+        }
+        [HttpGet]
+        public IActionResult importProdModel()
+        {
+            string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;
+            try
+            {
+                return PartialView();
+            }
+            catch
+            {
+                return Redirect("/");
+            }
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UploadCsvModel(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("File not selected");
+            }
+
+            using (var stream = new StreamReader(file.OpenReadStream()))
+            {
+                var csvData = new List<ProdModel>();
+                while (!stream.EndOfStream)
+                {
+                    var line = await stream.ReadLineAsync();
+                    var values = line.Split(',');
+
+                    var record = new ProdModel
+                    {
+                        BUid = _usermanager.GetUserAsync(this.User).Result.BU_id,
+                        ModelName = values[0],
+                        PkgSize = int.Parse(values[1]),
+                        CycleTime = double.Parse(values[2]),
+                        HeadCon = int.Parse(values[3])
+                    };
+
+                    csvData.Add(record);
+                }
+
+                _db.ProdModels.AddRange(csvData);
+                await _db.SaveChangesAsync();
+            }
+
+            return Ok("File uploaded and data saved successfully");
         }
 
         [HttpPost]
