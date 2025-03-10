@@ -131,8 +131,7 @@ namespace SacnSystemServer.Areas.Identity.Pages.Account
             {
                 _roleManager.CreateAsync(new IdentityRole(Roles.Role_Manager)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(Roles.Role_Production)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(Roles.Role_Warehouse_Member)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(Roles.Role_Warehouse_SPV)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(Roles.Role_PQC)).GetAwaiter().GetResult();
             }
             Input2 = new InputModel()
             {

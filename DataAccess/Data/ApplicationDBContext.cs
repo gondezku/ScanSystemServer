@@ -15,6 +15,7 @@ namespace DataAccess.Data
 
         public DbSet<BUnit> BUnits { get; set; }
         public DbSet<ProdModel> ProdModels { get; set; }
+        public DbSet<TempScanItems> TempScanItems { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

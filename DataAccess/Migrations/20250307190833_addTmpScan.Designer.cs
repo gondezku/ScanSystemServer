@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20250224195725_InitDB")]
-    partial class InitDB
+    [Migration("20250307190833_addTmpScan")]
+    partial class addTmpScan
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -273,6 +273,38 @@ namespace DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ProdModels");
+                });
+
+            modelBuilder.Entity("Models.TempScanItems", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("ActualNumber")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LineProd")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ModelId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlanNumber")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ScanTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SerialNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TempScanItems");
                 });
 
             modelBuilder.Entity("Models.ApplicationUser", b =>
