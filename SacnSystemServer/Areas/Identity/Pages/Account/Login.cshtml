@@ -94,11 +94,11 @@
         <div class="row pt-5">
             <div class="col-md-6 mt-5 offset-md-3 pt-5 mt-5">
                 <div class="card">
-                    <div class="card-header text-center py-2">
+                    <div class="card-header text-center py-2" style="background-color: #9890df;">
                         <h4 class="title mb-1">
                             @ViewData["Title"]
                         </h4>
-                        <h6 class="card-category">
+                        <h6 class="card-category" style="color: #dfd7d7">
                             <span>
                                 Use your credential to log in.
                             </span>
@@ -111,14 +111,14 @@
                                 <div class="col-md-12 px-md-1">
                                     <div class="did-floating-label-content">
                                         <input asp-for="Input.Email" class="did-floating-input" autocomplete="username" aria-required="true" placeholder="" />
-                                        <label asp-for="Input.Email" class="did-floating-label" style="background: #27293d;">Email</label>
+                                        <label asp-for="Input.Email" class="did-floating-label" style="background: #ffffff;">Email</label>
                                         <span asp-validation-for="Input.Email" class="text-danger"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-12 px-md-1">
                                     <div class="did-floating-label-content">
                                         <input asp-for="Input.Password" class="did-floating-input" autocomplete="current-password" aria-required="true" placeholder="" />
-                                        <label asp-for="Input.Password" class="did-floating-label" style="background: #27293d;">Password</label>
+                                        <label asp-for="Input.Password" class="did-floating-label" style="background: #ffffff;">Password</label>
                                         <span asp-validation-for="Input.Password" class="text-danger"></span>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                         <div class="card-footer text-center pt-0">
-                            <button id="login-submit" type="submit" class="btn btn-fill btn-primary">Log in</button>
+                            <button id="login-submit" type="submit" class="btn btn-fill">Log in</button>
                             <br />
                             <p>
                                 <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>

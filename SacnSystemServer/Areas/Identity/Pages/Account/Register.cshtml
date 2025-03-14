@@ -74,11 +74,11 @@
         <div class="row pt-5">
             <div class="col-md-7 offset-md-3 pt-5">
                 <div class="card" style="max-height:fit-content">
-                    <div class="card-header text-center py-2">
+                    <div class="card-header text-center py-2" style="background-color: #9890df;">
                         <h4 class="title mb-1">
                             @ViewData["Title"]
                         </h4>
-                        <h6 class="card-category">
+                        <h6 class="card-category" style="color: #dfd7d7">
                             <span>
                                 Create a new account.
                             </span>
@@ -91,14 +91,14 @@
                                 <div class="col-md-12 px-md-1">
                                     <div class="did-floating-label-content">
                                         <input asp-for="Input.Name" class="did-floating-input" autocomplete="username" aria-required="true" placeholder="" />
-                                        <label asp-for="Input.Name" class="did-floating-label" style="background: #27293d;">Name</label>
+                                        <label asp-for="Input.Name" class="did-floating-label" style="background: #ffffff;">Name</label>
                                         <span asp-validation-for="Input.Name" class="text-danger" style="font-size:10px;"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-12 px-md-1">
                                     <div class="did-floating-label-content">
                                         <input asp-for="Input.Email" class="did-floating-input" autocomplete="username" aria-required="true" placeholder="" />
-                                        <label asp-for="Input.Email" class="did-floating-label" style="background: #27293d;">Email</label>
+                                        <label asp-for="Input.Email" class="did-floating-label" style="background: #ffffff;">Email</label>
                                         <span asp-validation-for="Input.Email" class="text-danger" style="font-size:10px;"></span>
                                     </div>
                                 </div>
@@ -107,14 +107,14 @@
                                         <div class="col-md-6" style="padding-left:0px;padding-right:2px">
                                             <div class="did-floating-label-content">
                                                 <input asp-for="Input.Password" class="did-floating-input" autocomplete="new-password" aria-required="true" placeholder="" />
-                                                <label asp-for="Input.Password" class="did-floating-label" style="background: #27293d;">Password</label>
+                                                <label asp-for="Input.Password" class="did-floating-label" style="background: #ffffff;">Password</label>
                                                 <span asp-validation-for="Input.Password" class="text-danger" style="font-size:10px;"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6" style="padding-left:0px;padding-right:2px">
                                             <div class="did-floating-label-content">
                                                 <input asp-for="Input.ConfirmPassword" class="did-floating-input" autocomplete="new-password" aria-required="true" placeholder="" />
-                                                <label asp-for="Input.ConfirmPassword" class="did-floating-label" style="background: #27293d;">Confirm Password</label>
+                                                <label asp-for="Input.ConfirmPassword" class="did-floating-label" style="background: #ffffff;">Confirm Password</label>
                                                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger" style="font-size:10px;"></span>
                                             </div>
                                         </div>
@@ -123,10 +123,10 @@
                                 <div class="col-md-12 px-md-1" style="margin-top:5px;">
                                     @* <div class="col-md-6 px-0"> *@
                                         <div class="did-floating-label-content">
-                                            <select id="RoleSelect" asp-for="Input.Role" asp-items="@Model.Input2.Role_List" class="did-floating-select" style="background: #27293d;">
+                                        <select id="RoleSelect" asp-for="Input.Role" asp-items="@Model.Input2.Role_List" class="did-floating-select" style="background: #ffffff;">
                                                 <option disabled selected></option>
                                             </select>
-                                            <label asp-for="Input.Role" class="did-floating-label" style="background: #27293d;">Role</label>
+                                        <label asp-for="Input.Role" class="did-floating-label" style="background: #ffffff;">Role</label>
                                             <span asp-validation-for="Input.Role" class="text-danger" style="font-size:10px;"></span>
                                         </div>
                                     @* </div> *@
@@ -135,10 +135,10 @@
                                     @* <div class="row mx-0"> *@
                                         <div id="DispBU" class="col-md-12" style="padding-left:0px;padding-right:2px;">
                                             <div class="did-floating-label-content">
-                                                <select id="BUSelect" asp-for="Input.BU_Unit" asp-items="@Model.Input.BU_List" class="did-floating-select" style="background: #27293d;">
+                                            <select id="BUSelect" asp-for="Input.BU_Unit" asp-items="@Model.Input.BU_List" class="did-floating-select" style="background: #ffffff;">
                                                     <option disabled selected></option>
                                                 </select>
-                                                <label asp-for="Input.BU_Unit" class="did-floating-label" style="background: #27293d;">Bisnis Unit</label>
+                                            <label asp-for="Input.BU_Unit" class="did-floating-label" style="background: #ffffff;">Bisnis Unit</label>
                                                 <span asp-validation-for="Input.BU_Unit" class="text-danger" style="font-size:10px;"></span>
                                             </div>
                                         </div>
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                         <div class="card-footer text-center pt-0">
-                            <button id="registerSubmit" type="submit" class="btn btn-fill btn-primary">Register</button>
+                            <button id="registerSubmit" type="submit" class="btn btn-fill">Register</button>
                             <br />
                             <p>
                                 <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have an account</a>

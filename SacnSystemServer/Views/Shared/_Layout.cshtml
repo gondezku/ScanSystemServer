@@ -18,7 +18,7 @@
     @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
     @* <link rel="stylesheet" href="~/WebPE.styles.css" asp-append-version="true" /> *@
 </head>
-<body>
+<body class="white-content">
     <script src="~/js/plugins/preloader.js"></script>
     <div class="wrapper">
         @{
@@ -41,9 +41,9 @@
     <div class="modal fade mt-0" id="uni_modal" role="dialog">
         <div class="modal-dialog modal-dialog-scrollable modal-md" role="document">
             <div class="modal-content rounded-1" style="border: rgba(161, 152, 156, 0.8) 1px solid;">
-                <div class="modal-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-3 pb-3">
-                        <h3 class="modal-title text-white mx-3"></h3>
+                <div class="modal-header p-0 position-relative mt-n3 mx-3 z-index-1">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-2 pb-2">
+                        <h4 class="modal-title text-white mx-3"></h4>
                     </div>
                     
                 </div>
@@ -61,12 +61,12 @@
         <div class="modal-dialog modal-dialog-scrollable modal-md" role="document">
             <div class="modal-content rounded-1" style="border: rgba(161, 152, 156, 0.8) 1px solid;">
                 <div class="modal-header">
-                    <h3 class="modal-title"></h3>
+                    <h4 class="modal-title"></h4>
                 </div>
                 <div class="modal-body">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn  btn-sm btn-flat btn-primary rounded-1" id='submit' data-dismiss="modal" onclick="$('#uni_modal2 form').submit()">Save</button>
+                    <button type="button" class="btn btn-sm btn-flat btn-primary rounded-1" id='submit' data-dismiss="modal" onclick="$('#uni_modal2 form').submit()">Save</button>
                     <button type="button" class="btn btn-sm btn-flat btn-secondary rounded-1" id='cancel' data-dismiss="modal" onclick="$('#uni_modal2').modal('hide');$('#uni_modal').modal('show');">Cancel</button>
                 </div>
             </div>
