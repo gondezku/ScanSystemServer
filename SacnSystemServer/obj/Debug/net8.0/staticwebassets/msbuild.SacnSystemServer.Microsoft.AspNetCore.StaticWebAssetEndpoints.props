@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dS7Cuy5LodvzWzOG27Xdy189h9sLeM5h4g9ceYBi0Qc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"416169"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dS7Cuy5LodvzWzOG27Xdy189h9sLeM5h4g9ceYBi0Qc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 22:25:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"416180"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:26:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard.rgryi4jw3h.css">
+    <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard.o5nie8arib.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rgryi4jw3h"},{"Name":"integrity","Value":"sha256-dS7Cuy5LodvzWzOG27Xdy189h9sLeM5h4g9ceYBi0Qc="},{"Name":"label","Value":"_content/SacnSystemServer/css/black-dashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"416169"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dS7Cuy5LodvzWzOG27Xdy189h9sLeM5h4g9ceYBi0Qc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 22:25:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o5nie8arib"},{"Name":"integrity","Value":"sha256-vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8="},{"Name":"label","Value":"_content/SacnSystemServer/css/black-dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"416180"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:26:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard_min.3xo97gqt91.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard_min.css'))</AssetFile>
@@ -1187,6 +1187,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qU4pSOazJz8twyqXs0O09RH2ljUkgGtJUzNwN5w5OUk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2272"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qU4pSOazJz8twyqXs0O09RH2ljUkgGtJUzNwN5w5OUk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 18:59:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SacnSystemServer/Simple_logo_for_production_monitoring__1_-removebg-preview.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Simple_logo_for_production_monitoring__1_-removebg-preview.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1BEGfq64ZD0fYZ51c5oozSOtQrt1INnsSj4fOcNCkDM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"219916"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00221BEGfq64ZD0fYZ51c5oozSOtQrt1INnsSj4fOcNCkDM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:26:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SacnSystemServer/Simple_logo_for_production_monitoring__1_-removebg-preview.wxdh1wxq02.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Simple_logo_for_production_monitoring__1_-removebg-preview.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wxdh1wxq02"},{"Name":"integrity","Value":"sha256-1BEGfq64ZD0fYZ51c5oozSOtQrt1INnsSj4fOcNCkDM="},{"Name":"label","Value":"_content/SacnSystemServer/Simple_logo_for_production_monitoring__1_-removebg-preview.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"219916"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00221BEGfq64ZD0fYZ51c5oozSOtQrt1INnsSj4fOcNCkDM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:26:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SacnSystemServer/webfonts/fa-brands-400.0sh8x11phj.ttf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.ttf'))</AssetFile>
