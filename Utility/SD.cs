@@ -12,6 +12,17 @@ namespace Utility
         public static List<SD> MonControll { get; set; }
     }
 
+    public class ProdStat
+    {
+        public string BUName { get; set; }
+        public string LineName { get; set; }
+        public string Model { get; set; }
+        public int Plan { get; set; }
+        public int Act { get; set; }
+    
+        public static List<ProdStat> prodStats { get; set; }
+    } 
+
     public static class Roles
     {
         public const string Role_Manager = "Manager";
