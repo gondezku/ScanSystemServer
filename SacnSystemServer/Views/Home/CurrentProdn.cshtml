@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Current Production Stats";
+}
+<div class="row animate__animated animate__fadeInLeft">
+    <div class="card my-4" style="min-height:70vh">
+        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+            <div class="card-header p-0 position-relative mt-n3 mx-4 z-index-2">
+                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-2 pb-3" style="height: 38px;">
+                    @* <h6 class="text-white text-capitalize pl-3" style="font-size: 1rem;">Service Request</h6> *@
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="card-title mb-0">
+                            <h6 class="text-white text-capitalize pl-3" style="font-size: 1rem;">Current Production Stats</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin: 1rem 0.5rem 0.5rem 0.5rem;">
+            
+            <div class="col-xl-3 col-sm-3 mb-xl-3 mb-3 animate__animated animate__fadeInLeft" style="--animate-duration: 0.5s;">
+                <div id="Line1Stat" class="card mb-0" style="background-color: lightblue;height: 25vh">
+                    <div class="card-header p-0 position-relative mt-n2 mx-4 z-index-2">
+                        <div class="bg-gradient-success shadow-primary border-radius-lg pt-2 pb-3" style="height: 30px;">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="card-title mb-0">
+                                    <h6 class="text-white text-capitalize pl-3" style="font-size: 0.75rem;">Line 1</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table>
+                            <tr>
+                                <th style="width:65%">Model</th>
+                                <td class="font-weight-bolder">P-H137AC-S</td>
+                            </tr>
+                            <tr>
+                                <th>Target</th>
+                                <td>1200<span> pcs</span></td>
+                            </tr>
+                            <tr>
+                                <th>Actual</th>
+                                <td>1201<span> pcs</span></td>
+                            </tr>
+                            <tr>
+                                <th>Difference</th>
+                                <td>1<span> pcs</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <hr class="dark horizontal my-0">
+                        <div class="card-footer p-1 mx-2">
+                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+5% </span>than yesterday</p>
+                        </div>
+                    </hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        
+    })
+</script>

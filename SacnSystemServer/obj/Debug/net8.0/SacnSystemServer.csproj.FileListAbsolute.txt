@@ -671,7 +671,6 @@ C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SacnSystemServer.props
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SacnSystemServer.props
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\SacnSyst.54BB8CD7.Up2Date
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\SacnSystemServer.dll
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\refint\SacnSystemServer.dll
@@ -1166,3 +1165,4 @@ C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAuth.cshtml.rz.scp.css
 C:\Users\Jhon\Source\Repos\gondezku\ScanSystemServer\SacnSystemServer\bin\Debug\net8.0\CsvHelper.dll
 C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\WPPE\source\repos\gondezku\ScanSystemServer\SacnSystemServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

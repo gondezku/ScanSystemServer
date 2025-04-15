@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o5nie8arib</Fingerprint>
-      <Integrity>vJMuZsm9Ubg1+9zarMZddOKKriMAN758rTyjxaHtWi8=</Integrity>
+      <Fingerprint>4ecldn100i</Fingerprint>
+      <Integrity>/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard.css'))</OriginalItemSpec>

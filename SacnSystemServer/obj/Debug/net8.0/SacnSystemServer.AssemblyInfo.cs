@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SacnSystemServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0a41d38fba9fa0d886f38f933e7b1ce16418cf1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a5bcc8c925f7e61cb37f1324b4bf942994067b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SacnSystemServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SacnSystemServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

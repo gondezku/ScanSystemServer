@@ -9585,7 +9585,7 @@ fieldset[disabled]
     color: #9A9A9A; } }
 
 .footer {
-  padding: 15px 0 15px 250px; }
+  padding: 0px 0 0px 250px; }
   .footer [class*="container-"] {
     padding: 0; }
   .footer .nav {

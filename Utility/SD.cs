@@ -21,9 +21,16 @@ namespace Utility
         public int Act { get; set; }
     
         public static List<ProdStat> prodStats { get; set; }
-    } 
+    }
 
-    public static class Roles
+    public class BroadCastMsg
+    {
+        public string BUName { get; set; }
+        public string msgBroad { get; set; }
+        public static List<BroadCastMsg> broadCastMsg { get; set; }
+    }
+
+        public static class Roles
     {
         public const string Role_Manager = "Manager";
         public const string Role_Production = "Production";

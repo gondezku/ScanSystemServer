@@ -54,6 +54,21 @@ namespace SacnSystemServer.Controllers
         }
 
         [HttpGet]
+        public IActionResult CurrentProdn()
+        {
+            string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;
+            try
+            {
+                return PartialView();
+            }
+            catch
+            {
+                return Redirect("/");
+            }
+
+        }
+
+        [HttpGet]
         public IActionResult AddModel()
         {
             string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;

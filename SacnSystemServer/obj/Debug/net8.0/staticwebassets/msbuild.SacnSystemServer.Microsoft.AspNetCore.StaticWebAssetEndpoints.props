@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eqvsj3ze4z"},{"Name":"integrity","Value":"sha256-ph4SMxQYi9BFMyAAjgG0u7ZlvuCQOfTL2b70TeQQzmc="},{"Name":"label","Value":"_content/SacnSystemServer/css/animate.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71756"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ph4SMxQYi9BFMyAAjgG0u7ZlvuCQOfTL2b70TeQQzmc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 18:59:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard.4ecldn100i.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4ecldn100i"},{"Name":"integrity","Value":"sha256-/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ="},{"Name":"label","Value":"_content/SacnSystemServer/css/black-dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"416178"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 20:29:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"416180"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:26:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard.o5nie8arib.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o5nie8arib"},{"Name":"integrity","Value":"sha256-vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8="},{"Name":"label","Value":"_content/SacnSystemServer/css/black-dashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"416180"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vJMuZsm9Ubg1\u002B9zarMZddOKKriMAN758rTyjxaHtWi8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:26:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"416178"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 20:29:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SacnSystemServer/css/black-dashboard_min.3xo97gqt91.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\black-dashboard_min.css'))</AssetFile>

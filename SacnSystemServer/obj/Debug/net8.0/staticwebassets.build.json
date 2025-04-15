@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fjVBriwspNw+qGKz8Xi50t6ENwEg8tNG9bJctE2oS1M=",
+  "Hash": "CkaPtmLV5EC2QAV34PI03X2uDKGA2vy6hRJGnZ9OkKY=",
   "Source": "SacnSystemServer",
   "BasePath": "_content/SacnSystemServer",
   "Mode": "Default",
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o5nie8arib",
-      "Integrity": "vJMuZsm9Ubg1+9zarMZddOKKriMAN758rTyjxaHtWi8=",
+      "Fingerprint": "4ecldn100i",
+      "Integrity": "/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\black-dashboard.css"
@@ -3795,6 +3795,51 @@
       ]
     },
     {
+      "Route": "css/black-dashboard.4ecldn100i.css",
+      "AssetFile": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:29:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ecldn100i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/black-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ="
+        }
+      ]
+    },
+    {
       "Route": "css/black-dashboard.css",
       "AssetFile": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard.css",
       "Selectors": [],
@@ -3805,7 +3850,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "416180"
+          "Value": "416178"
         },
         {
           "Name": "Content-Type",
@@ -3813,11 +3858,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vJMuZsm9Ubg1+9zarMZddOKKriMAN758rTyjxaHtWi8=\""
+          "Value": "\"/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 19:26:44 GMT"
+          "Value": "Tue, 15 Apr 2025 20:29:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3827,52 +3872,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vJMuZsm9Ubg1+9zarMZddOKKriMAN758rTyjxaHtWi8="
-        }
-      ]
-    },
-    {
-      "Route": "css/black-dashboard.o5nie8arib.css",
-      "AssetFile": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "416180"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vJMuZsm9Ubg1+9zarMZddOKKriMAN758rTyjxaHtWi8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 19:26:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o5nie8arib"
-        },
-        {
-          "Name": "label",
-          "Value": "css/black-dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vJMuZsm9Ubg1+9zarMZddOKKriMAN758rTyjxaHtWi8="
+          "Value": "sha256-/Cq4S27axPBYGMAPnWwVMmHsgv9Ek/WdATTWa53mujQ="
         }
       ]
     },
