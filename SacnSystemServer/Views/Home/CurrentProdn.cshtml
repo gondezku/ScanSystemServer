@@ -17,7 +17,7 @@
         </div>
         <div class="row" style="margin: 1rem 0.5rem 0.5rem 0.5rem;">
             
-            <div class="col-md-3 mb-xl-3 mb-3 animate__animated animate__fadeInLeft" style="--animate-duration: 0.5s;">
+            <div id="Line1" class="col-md-3 mb-xl-3 mb-3 animate__animated animate__fadeInLeft" style="--animate-duration: 0.5s; display:none">
                 <div id="Line1Stat" class="card mb-0" style="background-color: lightblue;">
                     <div class="card-header p-0 position-relative mt-n2 mx-4 z-index-2">
                         <div class="bg-gradient-success shadow-primary border-radius-lg pt-2 pb-3" style="height: 30px;">
@@ -61,7 +61,22 @@
 
 
 <script type="text/javascript">
+    setInterval(displayHello, 1000);
+    
     $(function () {
         
     })
+
+    function displayHello() {
+        const test = 'Line'
+        for (let i = 1; i <= _Line; i++) {
+            const resultQ = _ProdnStat.find(item => item['buName'] === 'WP' && item['lineName'] === test+i);
+            var el = $('#'+test+i)
+            if (!resultQ) {
+                el.css("display", "none");
+            }else{
+                el.css("display", "block");
+            }
+        }
+    }
 </script>
