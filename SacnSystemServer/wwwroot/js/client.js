@@ -9,8 +9,13 @@ myConn.on("updateControll", (value) => {
 });
 
 myConn.on("updateStat", (value) => {
-    console.log("StatsUpdates :")
-    console.log(value);
+    if (_ProdnStat.length == 0) _ProdnStat.push(value);
+    if (_ProdnStat.length != 0)
+    {
+        for (let i = 0; i <= _ProdnStat.length-1; i++) {
+            console.log(_ProdnStat[i].buName);
+        }
+    }
 });
 
 //invoke hub methods aka send notification to hub

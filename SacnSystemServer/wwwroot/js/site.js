@@ -3,6 +3,7 @@
 
 // Write your JavaScript code.
 _wait = false;
+_ProdnStat = [];
 function LoadFrame(_frame, _label) {
     var myIcons = $('#' + _frame)
     var _myLabel = myIcons.children().find("p").text()
