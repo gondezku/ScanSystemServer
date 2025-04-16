@@ -6,6 +6,50 @@ namespace SacnSystemServer.Hubs
     public class UserHub : Hub
     {
         public static int TotalUsers { get; set; } = 0;
+        public async Task ProdnStats(string BUName, string LineName, string Model, int Act, int plan)
+        {
+            if (ProdStat.prodStats == null)
+            {
+                ProdStat.prodStats = new List<ProdStat>();
+                ProdStat.prodStats.Add(
+                    new ProdStat
+                    {
+                        BUName = BUName,
+                        LineName = LineName,
+                        Model = Model,
+                        Plan = plan,
+                        Act = Act,
+                    }
+                );
+            }
+            else
+            {
+                var objStat = ProdStat.prodStats.FirstOrDefault(x => x.BUName == BUName && x.LineName == LineName);
+                if (objStat==null)
+                {
+                    ProdStat.prodStats = new List<ProdStat>();
+                    ProdStat.prodStats.Add(
+                        new ProdStat
+                        {
+                            BUName = BUName,
+                            LineName = LineName,
+                            Model = Model,
+                            Plan = plan,
+                            Act = Act,
+                        }
+                    );
+                }
+                else 
+                {
+                    objStat.Model = Model;
+                    objStat.Plan = plan;
+                    objStat.Act = Act;
+                }
+            }
+
+            await Clients.All.SendAsync("updateStat", ProdStat.prodStats.FirstOrDefault(x => x.BUName == BUName && x.LineName == LineName));
+            //return SD.MonControll.FirstOrDefault(x => x.LineName == Test);
+        }
         public async Task GetMonCtrl(string Test)
         {
             if (SD.MonControll == null)

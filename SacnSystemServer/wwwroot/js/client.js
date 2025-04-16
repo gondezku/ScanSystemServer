@@ -8,6 +8,11 @@ myConn.on("updateControll", (value) => {
     console.log(value);
 });
 
+myConn.on("updateStat", (value) => {
+    console.log("StatsUpdates :")
+    console.log(value);
+});
+
 //invoke hub methods aka send notification to hub
 function Get() {
     myConn.send("GetMonCtrl","Line1")
@@ -19,7 +24,7 @@ function Get() {
 function fulfilled() {
     //do something on start
     console.log("Connection to User Hub Successful");
-    Get();
+    //Get();
     /*myConn.send("MonCtrl", "Line1", false, false,10,"Test")*/
 }
 function rejected() {
