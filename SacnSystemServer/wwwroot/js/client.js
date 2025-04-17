@@ -21,8 +21,28 @@ myConn.on("updateStat", (value) => {
             result.plan = value.plan;
             result.act = value.act;
         }
-        console.log(_ProdnStat);
+        //console.log(_ProdnStat);
         //}
+        const test = 'Line'
+        for (let i = 1; i <= _Line; i++) {
+            const resultQ = _ProdnStat.find(item => item['buName'] === 'WP' && item['lineName'] === test + i);
+            var elModel = $('#' + test + i + 'model')
+            var elplan = $('#' + test + i + 'plan')
+            var elact = $('#' + test + i + 'act')
+            var eldiff = $('#' + test + i + 'diff')
+            if (resultQ) {
+                elModel.text(resultQ.model)
+                elplan.text(resultQ.plan)
+                elact.text(resultQ.act)
+                var diff = resultQ.act - resultQ.plan
+                eldiff.text(diff)
+                if (diff >= 0) {
+                    eldiff.css("color", "green")
+                } else {
+                    eldiff.css("color", "red")
+                }
+            }
+        }
     }
     //const result = _ProdnStat.find(item => item['buName'] === 'WP');
     //if (!result) {

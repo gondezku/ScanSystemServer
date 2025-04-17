@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\views\\home\\currentprodn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\views\\home\\currentprodn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\wwwroot\\js\\client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\wwwroot\\js\\client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\views\\home\\currentprodn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\views\\home\\currentprodn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|c:\\users\\wppe\\source\\repos\\gondezku\\scansystemserver\\sacnsystemserver\\views\\home\\addmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6805DE-AEC2-466F-AE95-F2CB2D653DE6}|SacnSystemServer\\SacnSystemServer.csproj|solutionrelative:sacnsystemserver\\views\\home\\addmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,39 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "AddModel.cshtml",
+              "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Home\\AddModel.cshtml",
+              "RelativeDocumentMoniker": "SacnSystemServer\\Views\\Home\\AddModel.cshtml",
+              "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Home\\AddModel.cshtml",
+              "RelativeToolTip": "SacnSystemServer\\Views\\Home\\AddModel.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T22:54:23.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "SacnSystemServer\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\site.js",
               "RelativeToolTip": "SacnSystemServer\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-16T20:02:17.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CurrentProdn.cshtml",
               "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Home\\CurrentProdn.cshtml",
               "RelativeDocumentMoniker": "SacnSystemServer\\Views\\Home\\CurrentProdn.cshtml",
               "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\Views\\Home\\CurrentProdn.cshtml",
               "RelativeToolTip": "SacnSystemServer\\Views\\Home\\CurrentProdn.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T19:23:54.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "client.js",
               "DocumentMoniker": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\client.js",
               "RelativeDocumentMoniker": "SacnSystemServer\\wwwroot\\js\\client.js",
               "ToolTip": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\client.js",
               "RelativeToolTip": "SacnSystemServer\\wwwroot\\js\\client.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-16T15:55:49.1Z",
               "EditorCaption": ""
