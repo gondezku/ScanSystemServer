@@ -1,452 +1,448 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SacnSystemServer.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SacnSystemServer.1iykf9bmb8.bundle.scp.css"
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SacnSystemServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SacnSystemServer.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\Simple_logo_for_production_monitoring__1_-removebg-preview.png",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\Simple_logo_for_production_monitoring__1_-removebg-preview.png",
       "PackagePath": "staticwebassets\\Simple_logo_for_production_monitoring__1_-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\Poppins.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\Poppins.css",
       "PackagePath": "staticwebassets\\css\\Poppins.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\all.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\all.min.css",
       "PackagePath": "staticwebassets\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\animate.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\animate.min.css",
       "PackagePath": "staticwebassets\\css\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard.css",
       "PackagePath": "staticwebassets\\css\\black-dashboard.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard_min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\black-dashboard_min.css",
       "PackagePath": "staticwebassets\\css\\black-dashboard_min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\nucleo-svg.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\nucleo-svg.css",
       "PackagePath": "staticwebassets\\css\\nucleo-svg.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.eot",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.eot",
       "PackagePath": "staticwebassets\\fonts\\nucleo.eot"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.ttf",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.ttf",
       "PackagePath": "staticwebassets\\fonts\\nucleo.ttf"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.woff",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.woff",
       "PackagePath": "staticwebassets\\fonts\\nucleo.woff"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\fonts\\nucleo.woff2",
       "PackagePath": "staticwebassets\\fonts\\nucleo.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\black-dashboard.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\black-dashboard.js",
       "PackagePath": "staticwebassets\\js\\black-dashboard.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\black-dashboard.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\black-dashboard.js.map",
       "PackagePath": "staticwebassets\\js\\black-dashboard.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\black-dashboard.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\black-dashboard.min.js",
       "PackagePath": "staticwebassets\\js\\black-dashboard.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\client.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\client.js",
       "PackagePath": "staticwebassets\\js\\client.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\perfect-scrollbar.jquery.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\perfect-scrollbar.jquery.min.js",
       "PackagePath": "staticwebassets\\js\\perfect-scrollbar.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\app.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\app.js",
       "PackagePath": "staticwebassets\\js\\plugins\\app.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\bootstrap-notify.js",
       "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\chart.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\chart.min.js",
       "PackagePath": "staticwebassets\\js\\plugins\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\chartjs-plugin-datalabels.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\chartjs-plugin-datalabels.min.js",
       "PackagePath": "staticwebassets\\js\\plugins\\chartjs-plugin-datalabels.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\chartjs.min.js",
       "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\jspdf.umd.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\jspdf.umd.js",
       "PackagePath": "staticwebassets\\js\\plugins\\jspdf.umd.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\linq.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\linq.min.js",
       "PackagePath": "staticwebassets\\js\\plugins\\linq.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\moment.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\moment.js",
       "PackagePath": "staticwebassets\\js\\plugins\\moment.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\moment.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\moment.min.js",
       "PackagePath": "staticwebassets\\js\\plugins\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\polyfills.umd.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\polyfills.umd.js",
       "PackagePath": "staticwebassets\\js\\plugins\\polyfills.umd.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\preloader.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\plugins\\preloader.js",
       "PackagePath": "staticwebassets\\js\\plugins\\preloader.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\popper.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\signalr.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\signalr.js",
       "PackagePath": "staticwebassets\\js\\signalr.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.json",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.json",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-icons.json"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-icons.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.scss",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.scss",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-icons.scss"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\fonts\\bootstrap-icons.woff",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\fonts\\bootstrap-icons.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\css\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.css",
       "PackagePath": "staticwebassets\\lib\\dataTables\\datatables.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.js",
       "PackagePath": "staticwebassets\\lib\\dataTables\\datatables.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.min.css",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.min.css",
       "PackagePath": "staticwebassets\\lib\\dataTables\\datatables.min.css"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\dataTables\\datatables.min.js",
       "PackagePath": "staticwebassets\\lib\\dataTables\\datatables.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2",
       "PackagePath": "staticwebassets\\webfonts\\pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2",
       "PackagePath": "staticwebassets\\webfonts\\pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2"
     },
     {
-      "Id": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2",
+      "Id": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\wwwroot\\webfonts\\pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2",
       "PackagePath": "staticwebassets\\webfonts\\pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SacnSystemServer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SacnSystemServer.Microsoft.AspNetCore.StaticWebAssets.props",

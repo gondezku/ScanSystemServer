@@ -8595,24 +8595,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WPPE\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jhon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+      "projectUniqueName": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
       "projectName": "SacnSystemServer",
-      "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
-      "packagesPath": "C:\\Users\\WPPE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\",
+      "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\SacnSystemServer.csproj",
+      "packagesPath": "C:\\Users\\Jhon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\SacnSystemServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\WPPE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Jhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8626,14 +8621,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj"
+            "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Models\\Models.csproj"
             },
-            "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj": {
-              "projectPath": "C:\\Users\\WPPE\\source\\repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj"
+            "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Source\\Repos\\gondezku\\ScanSystemServer\\Utility\\Utility.csproj"
             }
           }
         }
@@ -8647,8 +8642,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -8708,7 +8702,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

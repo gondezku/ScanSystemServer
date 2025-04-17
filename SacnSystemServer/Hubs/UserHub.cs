@@ -6,6 +6,18 @@ namespace SacnSystemServer.Hubs
     public class UserHub : Hub
     {
         public static int TotalUsers { get; set; } = 0;
+        public override Task OnConnectedAsync()
+        {
+            UserHandler.ConnectedIds.Add(Context.ConnectionId);
+            Console.WriteLine(UserHandler.ConnectedIds.Count);
+            return base.OnConnectedAsync();
+        }
+
+        public override Task OnDisconnectedAsync(Exception exception)
+        {
+            UserHandler.ConnectedIds.Remove(Context.ConnectionId);
+            return base.OnDisconnectedAsync(exception);
+        }
         public async Task ProdnStats(string BUName, string LineName, string Model, int Act, int plan)
         {
             if (ProdStat.prodStats == null)
@@ -108,5 +120,9 @@ namespace SacnSystemServer.Hubs
             
             await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == lineName));
         }
+    }
+    public static class UserHandler
+    {
+        public static HashSet<string> ConnectedIds = new HashSet<string>();
     }
 }
