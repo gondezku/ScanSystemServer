@@ -3,10 +3,11 @@
 
 // Write your JavaScript code.
 _wait = false;
-_ProdnStat = [];
+/*_ProdnStat = [];*/
 _Line = 12;
 function LoadFrame(_frame, _label) {
     var myIcons = $('#' + _frame)
+    _actPage = _frame
     var _myLabel = myIcons.children().find("p").text()
 
     clearTimeout(_loadInterval)

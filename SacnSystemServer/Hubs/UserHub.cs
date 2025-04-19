@@ -112,6 +112,7 @@ namespace SacnSystemServer.Hubs
             }
 
             await Clients.Group("Monitor").SendAsync("updateStat", ProdStat.prodStats.FirstOrDefault(x => x.BUName == BUName && x.LineName == LineName));
+            await PopulateStat("Monitor");
             //return SD.MonControll.FirstOrDefault(x => x.LineName == Test);
         }
         public async Task GetMonCtrl(string Test)

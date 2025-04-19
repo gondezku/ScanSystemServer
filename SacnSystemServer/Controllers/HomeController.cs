@@ -9,6 +9,7 @@ using DataAccess.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CsvHelper;
+using Utility;
 
 namespace SacnSystemServer.Controllers
 {
@@ -19,13 +20,15 @@ namespace SacnSystemServer.Controllers
         private readonly UserManager<ApplicationUser> _usermanager;
         private readonly ILogger<HomeController> _logger;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly IHubContext<UserHub> _hub;
 
-        public HomeController(ApplicationDBContext db, UserManager<ApplicationUser> usermanager, SignInManager<ApplicationUser> signInManager, ILogger<HomeController> logger)
+        public HomeController(ApplicationDBContext db, UserManager<ApplicationUser> usermanager, SignInManager<ApplicationUser> signInManager, ILogger<HomeController> logger, IHubContext<UserHub> hub)
         {
             _db = db;
             _usermanager = usermanager;
             _signInManager = signInManager;
             _logger = logger;
+            _hub = hub;
             //int siteku = _db.Sites.Count();
 
         }
@@ -43,7 +46,7 @@ namespace SacnSystemServer.Controllers
             string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;
             try
             {
-                ViewBag.objModel = _db.ProdModels.Where(x=>x.BUid == UsrBU).ToList();
+                ViewBag.objModel = _db.ProdModels.Where(x=>x.BUid == UsrBU).AsNoTracking().ToList();
                 return PartialView();
             }
             catch
@@ -57,13 +60,24 @@ namespace SacnSystemServer.Controllers
         public IActionResult CurrentProdn()
         {
             string UsrBU = _usermanager.GetUserAsync(this.User).Result.BU_id;
+            var objBU = _db.BUnits.FirstOrDefaultAsync(x => x.Id == UsrBU).GetAwaiter().GetResult();
             try
             {
-                return PartialView();
+                if (objBU != null)
+                {
+                    //_hub.Clients.All.SendAsync("MonStat", ProdStat.prodStats.ToList());
+                    return PartialView();
+                }
+                else
+                {
+                    //    _ = Logout();
+                    return PartialView("Privacy");
+                }
+
             }
             catch
             {
-                return Redirect("/");
+                return PartialView("Privacy");
             }
 
         }

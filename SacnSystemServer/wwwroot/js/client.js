@@ -1,4 +1,5 @@
 //create connection
+_ProdnStat = [];
 var myConn = new signalR.HubConnectionBuilder()
     //.configureLogging(signalR.LogLevel.Information)
     .withAutomaticReconnect()
@@ -55,7 +56,15 @@ myConn.on("updateStat", (value) => {
 });
 
 myConn.on("MonStat", (value) => {
-    console.log(value);
+    //let check = @Html.Raw(Json.Serialize(ViewData["Title"]));
+    _ProdnStat = [];
+    _ProdnStat.push(...value)
+    //console.log(value);
+    //console.log(_ProdnStat.length)
+    //console.log(_actPage)
+    if (_actPage == 'CurrentProdn') {
+       syncStat()
+    }
 })
 //invoke hub methods aka send notification to hub
 function Get() {
@@ -75,5 +84,31 @@ function rejected() {
     //rejected logs
 }
 
+function syncStat() {
+    const test = 'Line'
+    for (let i = 1; i <= _Line; i++) {
+        const resultQ = _ProdnStat.find(item => item['buName'] === 'WP' && item['lineName'] === test + i);
+        var elModel = $('#' + test + i + 'model')
+        var elplan = $('#' + test + i + 'plan')
+        var elact = $('#' + test + i + 'act')
+        var eldiff = $('#' + test + i + 'diff')
+        var el = $('#' + test + i)
+        if (resultQ) {
+            elModel.text(resultQ.model)
+            elplan.text(resultQ.plan)
+            elact.text(resultQ.act)
+            var diff = resultQ.act - resultQ.plan
+            eldiff.text(diff)
+            if (diff >= 0) {
+                eldiff.css("color", "green")
+            } else {
+                eldiff.css("color", "red")
+            }
+            el.css("display", "block");
+        } else {
+            el.css("display", "none");
+        }
+    }
+}
 
 myConn.start().then(fulfilled, rejected)
