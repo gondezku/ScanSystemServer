@@ -19,6 +19,7 @@ namespace Utility
         public string Model { get; set; }
         public int Plan { get; set; }
         public int Act { get; set; }
+        public string? ConnectionId { get; set; }
     
         public static List<ProdStat> prodStats { get; set; }
     }

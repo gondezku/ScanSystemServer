@@ -1,22 +1,72 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using DataAccess.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.SignalR;
+using Microsoft.EntityFrameworkCore;
+using Models;
+using System.Xml.Linq;
 using Utility;
 
 namespace SacnSystemServer.Hubs
 {
     public class UserHub : Hub
     {
-        public static int TotalUsers { get; set; } = 0;
+        private readonly UserManager<ApplicationUser> _usermanager;
+        private readonly ApplicationDBContext _db;
+
+        public UserHub(UserManager<ApplicationUser> usermanager, ApplicationDBContext db)
+        {
+            _usermanager = usermanager;
+            _db = db;
+            //int siteku = _db.Sites.Count();
+
+        }
         public override Task OnConnectedAsync()
         {
             UserHandler.ConnectedIds.Add(Context.ConnectionId);
-            Console.WriteLine(UserHandler.ConnectedIds.Count);
+            if (Context.User.Identity.Name == null)
+            {
+                Groups.AddToGroupAsync(Context.ConnectionId,"Controll");
+            }
+            else
+            {
+                Groups.AddToGroupAsync(Context.ConnectionId, "Monitor");
+                PopulateStat("Monitor");
+            }
+            //else
+            //{
+            //    string userName = _usermanager.GetUserAsync(Context.User).Result.BU_id;
+            //    string BUName = _db.BUnits.FirstOrDefaultAsync(u => u.Id == userName).GetAwaiter().GetResult().Name;
+            //    if (BUName != null)
+            //    {
+            //        Console.WriteLine("User: " + BUName);
+            //    }
+            //}
             return base.OnConnectedAsync();
         }
 
         public override Task OnDisconnectedAsync(Exception exception)
         {
             UserHandler.ConnectedIds.Remove(Context.ConnectionId);
+            if (Context.User.Identity.Name == null)
+            {
+                Groups.RemoveFromGroupAsync(Context.ConnectionId, "Controll");
+                var objStat = ProdStat.prodStats.FirstOrDefault(x=>x.ConnectionId==Context.ConnectionId);
+                if (objStat != null)
+                {
+                    ProdStat.prodStats.Remove(objStat);
+                }
+                PopulateStat("Monitor");
+            }
+            else
+            {
+                Groups.RemoveFromGroupAsync(Context.ConnectionId, "Monitor");
+
+            }
             return base.OnDisconnectedAsync(exception);
+        }
+        public async Task PopulateStat(string Groups) 
+        { 
+            await Clients.Group("Monitor").SendAsync("MonStat", ProdStat.prodStats.ToList());
         }
         public async Task ProdnStats(string BUName, string LineName, string Model, int Act, int plan)
         {
@@ -31,8 +81,9 @@ namespace SacnSystemServer.Hubs
                         Model = Model,
                         Plan = plan,
                         Act = Act,
+                        ConnectionId = Context.ConnectionId
                     }
-                );
+                ); ;
             }
             else
             {
@@ -48,6 +99,7 @@ namespace SacnSystemServer.Hubs
                             Model = Model,
                             Plan = plan,
                             Act = Act,
+                            ConnectionId = Context.ConnectionId
                         }
                     );
                 }
@@ -59,24 +111,14 @@ namespace SacnSystemServer.Hubs
                 }
             }
 
-            await Clients.All.SendAsync("updateStat", ProdStat.prodStats.FirstOrDefault(x => x.BUName == BUName && x.LineName == LineName));
+            await Clients.Group("Monitor").SendAsync("updateStat", ProdStat.prodStats.FirstOrDefault(x => x.BUName == BUName && x.LineName == LineName));
             //return SD.MonControll.FirstOrDefault(x => x.LineName == Test);
         }
         public async Task GetMonCtrl(string Test)
         {
-            if (SD.MonControll == null)
-            {
-                SD.MonControll = new List<SD>();
-                SD.MonControll.Add(
-                    new SD
-                    {
-                        LineName = Test,
-                    }
-                );
-            }
-            else 
-            {
-                if (SD.MonControll.FirstOrDefault(x => x.LineName == Test)==null)
+            //if (Test != "Monitoring")
+            //{
+                if (SD.MonControll == null)
                 {
                     SD.MonControll = new List<SD>();
                     SD.MonControll.Add(
@@ -86,9 +128,27 @@ namespace SacnSystemServer.Hubs
                         }
                     );
                 }
-            }
+                else
+                {
+                    if (SD.MonControll.FirstOrDefault(x => x.LineName == Test) == null)
+                    {
+                        SD.MonControll = new List<SD>();
+                        SD.MonControll.Add(
+                            new SD
+                            {
+                                LineName = Test,
+                            }
+                        );
+                    }
+                }
+                await Clients.Group("Controll").SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == Test));
+            //}
+            //else
+            //{
+            //    //await Groups.AddToGroupAsync(Context.ConnectionId, "Monitoring");
+            //    Console.WriteLine("ConnectionId: "+ Context.ConnectionId);
+            //}
 
-            await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == Test));
             //return SD.MonControll.FirstOrDefault(x => x.LineName == Test);
         }
 
@@ -118,7 +178,7 @@ namespace SacnSystemServer.Hubs
                 }
             }
             
-            await Clients.All.SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == lineName));
+            await Clients.Group("Controll").SendAsync("updateControll", SD.MonControll.FirstOrDefault(x => x.LineName == lineName));
         }
     }
     public static class UserHandler

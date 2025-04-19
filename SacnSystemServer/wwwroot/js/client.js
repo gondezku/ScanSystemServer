@@ -54,9 +54,12 @@ myConn.on("updateStat", (value) => {
     //}
 });
 
+myConn.on("MonStat", (value) => {
+    console.log(value);
+})
 //invoke hub methods aka send notification to hub
 function Get() {
-    myConn.send("GetMonCtrl","Line1")
+    myConn.send("GetMonCtrl","Monitoring")
 }
 
 
